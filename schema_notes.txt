@@ -1,0 +1,14 @@
+This is DEMO data for DHA Suffa University (fake students). Two tables:
+- students: one row per student. status is one of Active, Graduated, Withdrawn, Frozen.
+- semester_results: one row per student per COMPLETED semester; join to students on student_id.
+Column meanings:
+- cgpa is on a 4.00 scale. cgpa and grade are NULL for new students who have not completed a semester yet.
+- grade is the overall letter grade from CGPA (A is best, then A-, B+, B, B-, C+, C, C-, D, F).
+- graduation_date is the pass-out date; it is NULL unless status = 'Graduated'.
+- join_date is the admission date; admission_year is the batch year.
+- current_semester is the semester number the student is in (or left in / graduated from).
+- progress_percent = credits_completed / total_credits * 100 (how much of the degree is done).
+- academic_standing: 'Honor Roll' means cgpa >= 3.5, 'Academic Probation' means cgpa < 2.0.
+- age is the student's age on the day the data was generated.
+- semester_results.sgpa is that semester's GPA; cumulative_cgpa is the CGPA after that semester; term looks like 'Fall 2024'.
+Text values are case-sensitive, so use the exact values listed above, and use LOWER(...) LIKE for name searches.
