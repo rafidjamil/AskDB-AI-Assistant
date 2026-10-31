@@ -1,8 +1,8 @@
 # AskDB AI — AI-Powered Natural Language Database Assistant
 
-> **Personal Project** for Data Science / AI/ML Stream 
-> **Approved by:** Tehniyat Mirza (Senior Lecturer, DHA Suffa University) 
-> **Author:** Rafid Jamil
+> **Personal Project** for Data Science / AI/ML Stream, 
+> **Approved by:** Tehniyat Mirza (Senior Lecturer, DHA Suffa University), 
+> **Author:** Rafid Jamil.
 
 ---
 
